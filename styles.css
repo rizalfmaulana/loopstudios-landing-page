@@ -98,3 +98,10 @@ header {
 .description p {
   line-height: 1.5;
 }
+
+/* section-2 */
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
