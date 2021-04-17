@@ -101,7 +101,88 @@ header {
 
 /* section-2 */
 .section-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 100px;
+}
+
+.text {
+  grid-area: 1/1/1/1;
+}
+
+.button {
+  grid-area: 1/2/1/2;
+}
+
+.button .btn {
+  padding: 5px 25px;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+.grid {
+  grid-area: 2/1/2/3;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+.grid .pic-1 {
+  background-image: url("./images/desktop/image-deep-earth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.grid .pic-2 {
+  background-image: url("./images/desktop/image-night-arcade.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.grid .pic-3 {
+  background-image: url("./images/desktop/image-soccer-team.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.grid .pic-4 {
+  background-image: url("./images/desktop/image-grid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.grid .pic-5 {
+  background-image: url("./images/desktop/image-from-above.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.grid .pic-6 {
+  background-image: url("./images/desktop/image-pocket-borealis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.grid .pic-7 {
+  background-image: url("./images/desktop/image-curiosity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.grid .pic-8 {
+  background-image: url("./images/desktop/image-fisheye.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.grid > div > h3 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  width: 60%;
+  padding-left: 20px;
 }
