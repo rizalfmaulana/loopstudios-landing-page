@@ -292,6 +292,14 @@ header {
     background-image: url("./images/mobile/image-hero.jpg");
   }
 
+  .graphic .banner {
+    width: 100%;
+    padding: 0px;
+    font-size: 42px;
+    margin: 0 auto 0 0;
+    padding: 10px;
+  }
+
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -346,6 +354,7 @@ header {
   .section-2 {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
   .text {
     margin: 0 auto;
@@ -393,8 +402,38 @@ header {
     height: 100px;
   }
 
+  /* section-3 */
   .section-3 {
     display: flex;
     flex-direction: column;
+  }
+  .section-3 .banfot {
+    margin: 0 auto;
+  }
+
+  .section-3 .icon {
+    margin: 0 auto;
+  }
+
+  .fab {
+    margin-left: 10px;
+    padding-bottom: 2px;
+  }
+
+  .section-3 .foot {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .section-3 .foot li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+
+  .section-3 .copyright {
+    margin: 0 auto;
   }
 }
